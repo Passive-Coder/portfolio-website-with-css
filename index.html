@@ -5,7 +5,17 @@
         <title>Portfolio Website</title>
         <link rel="stylesheet" href="./style.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-
+        <style>
+            li{
+                margin: 10px;
+            }
+            #main .left h3{
+                color: darkblue;
+            }
+            #main .right h2{
+                color: darkblue;
+            }
+        </style>
     </head>
     <body>
         <div id = "title">
@@ -19,12 +29,16 @@
                 <hr/>
                 <table style="border: none;">
                     <tr>
-                        <td><img src="./Assets/Images/phone_icon.png" style="height:20px;" /></td>
-                        <td><p>+91 99999 99999</p></td>
+                        <td><img src="./Assets/Images/phone_icon.png" style="height:20px;margin:0px;vertical-align:middle; padding-right:10px;" /></td>
+                        <td><p style="margin-bottom:0px;">+91 99999 99999</p></td>
                     </tr>
                     <tr>
-                        <td><img src="./Assets/Images/email.jpg" style="height:20px;" /></td>
+                        <td><img src="./Assets/Images/email_icon.png" style="height:20px;margin:0px;vertical-align:middle; padding-right:10px;" /></td>
                         <td><p>passiveuser369@gmail.com</p></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./Assets/Images/github_logo.png" style="height:20px;margin:0px;vertical-align:middle; padding-right:10px;" /></td>
+                        <td><a href="https://github.com/Passive-Coder" target="_blank">Github Profile</a></td>
                     </tr>
                 </table>
                 </nav>
@@ -44,6 +58,23 @@
                     <li>French (Basic)</li>
                 </ul>
             </div>
+            <div class="middle" style="justify-content:center; align-items: center;">
+                <div style = "position: absolute; left: 37%; top: 7%">
+                <div style = "width: 2px; height: 100px; background-color: black;"></div>
+                <div style = "position: relative; left: -1.75px; width: 4px; height: 4px; border: 1px solid black; border-radius: 3px; margin:0px;"></div>
+                <div style = "width: 2px; height: 100px; background-color: black;"></div>
+                </div>
+                <div style = "position: absolute; left: 37%; top: 34.75%">
+                <div style = "width: 2px; height: 65px; background-color: black;"></div>
+                <div style = "position: relative; left: -1.75px; width: 4px; height: 4px; border: 1px solid black; border-radius: 3px; margin:0px;"></div>
+                <div style = "width: 2px; height: 235px; background-color: black;"></div>
+                </div>
+                <div style = "position: absolute; left: 37%; top: 75%">
+                <div style = "width: 2px; height: 60px; background-color: black;"></div>
+                <div style = "position: relative; left: -1.75px; width: 4px; height: 4px; border: 1px solid black; border-radius: 3px; margin:0px;"></div>
+                <div style = "width: 2px; height: 100px; background-color: black;"></div>
+                </div>
+            </div>
             <div class = "right">
                 <br>
                 <h2>PROFILE</h2>
@@ -58,7 +89,16 @@
                 <br>
                 <h2>WORK EXPERIENCE</h2>
                 <hr />
-                <h3>Bulls and Bears, VIT</h3>
+                <table style = "width:100%;">
+                    <tr>
+                        <td>
+                            <h3>Bulls and Bears, VIT</h3>
+                        </td>
+                        <td style="text-align: right;">
+                            April 2025 - Present
+                        </td>
+                    </tr>
+                </table>
                 <i>Technical Core Member</i> <br>
                 <p>Learnt Web Development and helped to update the club's website</p>
                 <br>
@@ -69,7 +109,7 @@
                 <h2>EDUCATION</h2>
                 <hr />
                 <h3>B.tech Computer Science and Engineering</h3>
-                <p>Vellore Institute of Technology</p>
+                <p><i>Vellore Institute of Technology</p>
                 <p>GPA: 10</p>
             </div>
         </div>
